@@ -11,7 +11,7 @@ const IndexController: Router = Router();
 
 IndexController.use("/auth", AuthController);
 IndexController.use("/meal", MealController);
-IndexController.use("/goal", GoalController);
+IndexController.use("/goals", GoalController);
 IndexController.use("/workout", WorkoutController);
 IndexController.use("/weightlog", WeightLogController);
 IndexController.get("/", async (_req: Request, res: Response) => {

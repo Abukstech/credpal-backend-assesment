@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(
   cors({
     credentials: true,
-    origin: [""],
+    origin: ["https://credpal-backend-assesment.onrender.com"],
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   })
 );
